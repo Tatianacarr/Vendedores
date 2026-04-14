@@ -12,6 +12,9 @@ public class Vendedor {
         this.comision=comision;
         this.cumplimiento=cumplimiento;
     }
+    public String getNombre(){
+        return nombre;
+    }
     public void setMonto(double monto){
         if (monto>0){
             this.monto=monto;
