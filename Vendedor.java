@@ -68,6 +68,7 @@ public class Vendedor {
         System.out.println("Total:"+total());
         System.out.println("Estado:"+estado());
         System.out.println("Mensaje:"+mensaje());
+        System.out.println("//////////////////////";
 
     }
 }
